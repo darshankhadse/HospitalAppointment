@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:context=".RegDoctor">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/profilepic" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Doctor"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name" >
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+
+<com.google.android.material.textfield.TextInputLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:focusable="true"
+android:focusableInTouchMode="true"
+android:ems="10"
+android:inputText="text"
+android:textSize="20sp"
+
+    >
+</com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Male"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Female"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+    android:id="@+id/spinspecialist"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="20dp"
+    android:entries="@array/specialization_type"
+    >
+
+</androidx.appcompat.widget.AppCompatSpinner>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinexp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:entries="@array/experience"
+        android:prompt="Search Type">
+
+    </androidx.appcompat.widget.AppCompatSpinner>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinedu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:entries="@array/education"
+        android:prompt="Search Type">
+    </androidx.appcompat.widget.AppCompatSpinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_degreeimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Degree"
+                >
+
+            </Button>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_uploaddeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="Upload">
+
+            </Button>
+
+
+
+
+
+
+
+        </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Hospital"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tvaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Address" >
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tvcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Contact" >
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Services"
+            android:textSize="20sp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical"
+            android:text="Ambulance" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Vaikunth Rath" />
+
+        <Button
+            android:id="@+id/btnregdoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_rounded"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

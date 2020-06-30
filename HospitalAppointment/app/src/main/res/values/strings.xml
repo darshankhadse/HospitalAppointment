@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HospitalAppointment</string>
+    <string name="spinner_type">Select Type</string>
+
+    <string-array name="specialization_type">
+        <item>Multispecialists</item>
+        <item>Cancer Specialist</item>
+        <item>Heart Specialist</item>
+
+    </string-array>
+
+    <string name="spinner_type2">Search Type</string>
+
+    <string-array name="search_type">
+        <item>Ambulance</item>
+        <item>Vaikunthrath</item>
+
+    </string-array>
+
+    <string name="spinner_type3">Search Type</string>
+    <string-array name="search_city">
+        <item>Akola</item>
+        <item>Nagpur</item>
+        <item>Pune</item>
+        <item>Banglore</item>
+
+    </string-array>
+
+    <string-array name="experience">
+        <item>1+</item>
+        <item>2+</item>
+        <item>3+</item>
+        <item>4+</item>
+        <item>5+</item>
+        <item>6+</item>
+
+    </string-array>
+
+    <string-array name="education">
+        <item>MD</item>
+        <item>MBBS</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.comkct.hospitalappointment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:5:22-77
+12
+13    <application
+13-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:7:5-31:19
+14        android:allowBackup="true"
+14-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\Darshan\.gradle\caches\transforms-2\files-2.1\b854ed88e40e5b01abf0773148d86e35\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.comkct.hospitalappointment.Fileupload" />
+22-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:14:9-57
+22-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:14:19-45
+23        <activity android:name="com.comkct.hospitalappointment.searchresults" />
+23-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:15:9-51
+23-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:15:19-48
+24        <activity android:name="com.comkct.hospitalappointment.demo" />
+24-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:16:9-42
+24-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:16:19-39
+25        <activity android:name="com.comkct.hospitalappointment.RegDoctor" />
+25-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:17:9-47
+25-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:17:19-44
+26        <activity android:name="com.comkct.hospitalappointment.DetailTab" />
+26-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:18:9-47
+26-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:18:19-44
+27        <activity android:name="com.comkct.hospitalappointment.Search_activity" />
+27-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:19:9-53
+27-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:19:19-50
+28        <activity android:name="com.comkct.hospitalappointment.Choose_user" />
+28-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:20:9-49
+28-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:20:19-46
+29        <activity android:name="com.comkct.hospitalappointment.Signup_doctor" />
+29-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:21:9-51
+29-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:21:19-48
+30        <activity android:name="com.comkct.hospitalappointment.Signup_user" />
+30-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:22:9-49
+30-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:22:19-46
+31        <activity android:name="com.comkct.hospitalappointment.Login_user" />
+31-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:23:9-48
+31-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:23:19-45
+32        <activity android:name="com.comkct.hospitalappointment.MainActivity" >
+32-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:24:9-30:20
+32-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:24:19-47
+33            <intent-filter>
+33-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:26:17-69
+34-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:28:17-77
+36-->C:\Users\Darshan\AndroidStudioProjects\HospitalAppointment\app\src\main\AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
